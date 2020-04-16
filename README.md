@@ -1,4 +1,4 @@
-# Real_Estate
+# Real_Estate: Property Search Made Easy
 Django Based application for real estate listings and manegement.
 
 Functinalities:
