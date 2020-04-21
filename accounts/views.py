@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth.models import User
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 
 def register(request):
     if request.method == 'POST':
@@ -48,8 +48,11 @@ def loginhere(request):
     else:
         return render(request, 'accounts/login.html')
 
-def logout(request):
-    return redirect('index')
+def logouthere(request):
+    if request.method == 'POST':
+        logout(request)
+        messages.success(request, 'You are now logged out')
+        return redirect('index')
 
 def dashboard(request):
     return render(request, 'accounts/dashboard.html')
