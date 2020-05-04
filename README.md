@@ -1,6 +1,6 @@
 # Check RealEstate: Property Search Made Easy
 This is a Django Based application for real estate listings and manegement.
-This project is made as part of the course [Python Django Dev To Deployment](https://www.udemy.com/course/python-django-dev-to-deployment/) by Brad Traversy.
+This project is made as part of the course [Python Django Dev To Deployment](https://www.udemy.com/course/python-django-dev-to-deployment/) by Brad Traversy. This website is currently hosted on [www.checkrealestate.live](www.checkrealestate.live)
 
 Functinalities:
 1. Browse and search through property Listings without logging in.
